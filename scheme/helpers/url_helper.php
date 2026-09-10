@@ -217,4 +217,3 @@ if ( ! function_exists('segment'))
 }
 
 
-?>

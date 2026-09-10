@@ -124,4 +124,3 @@ if( ! function_exists('csrf_field'))
 		echo $form;
 	}
 }
-?>

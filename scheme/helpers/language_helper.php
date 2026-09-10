@@ -69,4 +69,3 @@ if ( ! function_exists('language'))
 	}
 }
 
-?>

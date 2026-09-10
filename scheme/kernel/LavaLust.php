@@ -242,4 +242,3 @@ if (php_sapi_name() === 'cli') {
 if (empty($url)) $url = '/';
 
 $router->initiate($url, $method);
-?>

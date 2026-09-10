@@ -370,4 +370,3 @@ if ( ! function_exists('repeater'))
         return ($num > 0) ? str_repeat($data, $num) : '';
     }
 }
-?>

@@ -107,4 +107,3 @@ if(! function_exists('copy_file'))
         return $remove_original ? rename($path, $copy_path) : copy($path, $copy_path);
     }
 }
-?>
