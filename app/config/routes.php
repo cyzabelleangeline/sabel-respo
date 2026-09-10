@@ -14,6 +14,7 @@ $router->get('/student/grant_access', 'StudentController::grant_access');
 
 $router->get('/users', 'User::index');
 
+$router->get('/product', 'ProductController::index')->middleware('auth');
 $router->get('/products', 'ProductController::index')->middleware('auth');
 $router->get('/products/create', 'ProductController::create')->middleware(['auth', 'admin']);
 $router->post('/products', 'ProductController::store')->middleware(['auth', 'admin']);
